@@ -1,4 +1,4 @@
-# README Generator
+# README Generator (Node.js)
 
 ## Links
 

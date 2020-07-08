@@ -13,6 +13,12 @@ const questions = [
     name: "title"
   },
   {
+    type: "list",
+    message: "Please choose one of the licenses from below",
+    name: "license",
+    choices: ["None", "MIT", "Apache"]
+  },
+  {
     type: "input",
     message: "Please write a short description for your project.",
     name: "description"

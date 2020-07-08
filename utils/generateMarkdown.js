@@ -23,7 +23,7 @@ ${response.description}
 
 [Tests](#tests)
 
-[Questions](#questions)
+[Contact with Questions](#contact-with-questions)
 
 # Installation
 
@@ -36,13 +36,15 @@ ${response.usage}
 # License
 ${response.license}
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # Contribution
 ${response.contribution}
 
 # Tests
 ${response.tests}
 
-# Questions: Please Contact
+# Contact with Questions
 
 GitHub Username: ${response.username} 
 

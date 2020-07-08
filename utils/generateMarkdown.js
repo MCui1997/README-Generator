@@ -21,11 +21,11 @@ const generateMarkdown = response => {
 
 # Questions: Please Contact
 
-GitHub Username: ${response.username}
+GitHub Username: ${response.username} 
 
-Email: ${response.email}
+GitHub Link: github.com/${response.username}
 
-
+Please Email: ${response.email}
 
 
 `

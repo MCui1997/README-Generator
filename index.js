@@ -1,8 +1,8 @@
 //All variables needed
-var inquirer = require("inquirer");
-var fs = require("fs");
+const inquirer = require("inquirer");
+const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
-var fileName = "michael.md";
+let fileName = "michael.md";
 
 //Questions for user
 const questions = [
@@ -50,7 +50,7 @@ const questions = [
  
 ];
 
-//Initiation function to run code
+//Initiation function to run code using inquirer prompt
 function init(){
   
 inquirer
@@ -63,9 +63,11 @@ inquirer
 }
 
 //Write the file
-function writeToFile(filename,response){
+function writeToFile(fileName,response){
 
+  //Convert it into markdown file format
   const markdown = generateMarkdown(response);
+  //Actually create the file, message when succesful
   fs.writeFile(fileName, markdown, error => error ? console.error(error) : console.log(`${fileName} generated!`))
 
 }

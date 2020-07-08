@@ -9,7 +9,7 @@ const questions = [
 
   {
     type: "input",
-    message: "What is the title of your Readme?",
+    message: "Please enter your project title.",
     name: "title"
   },
   {
@@ -19,10 +19,35 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is your preferred method of communication?",
-    name: "communication"
-  }
-
+    message: "Please enter the installation instructions.",
+    name: "installation"
+  },
+  {
+    type: "input",
+    message: "Please enter the usage instructions.",
+    name: "usage"
+  },
+  {
+    type: "input",
+    message: "Please enter the contribution guidelines.",
+    name: "contribution"
+  },
+  {
+    type: "input",
+    message: "Please enter testing instructions.",
+    name: "tests"
+  },
+  {
+    type: "input",
+    message: "Please enter your GitHub username.",
+    name: "username"
+  },
+  {
+    type: "input",
+    message: "Please enter your email address",
+    name: "email"
+  },
+ 
 ];
 
 //Initiation function to run code
@@ -41,8 +66,7 @@ inquirer
 function writeToFile(filename,response){
 
   const markdown = generateMarkdown(response);
-  fs.writeFile(filename,JSON.stringify(markdown, null, '\t'),function(err) {
-  });
+  fs.writeFile(fileName, markdown, error => error ? console.error(error) : console.log(`${fileName} generated!`))
 
 }
 

@@ -1,49 +1,50 @@
+//All variables needed
 var inquirer = require("inquirer");
 var fs = require("fs");
-
+const generateMarkdown = require("./utils/generateMarkdown.js");
 var fileName = "michael.md";
 
-
-// array of questions for user
+//Questions for user
 const questions = [
+
+  {
+    type: "input",
+    message: "What is the title of your Readme?",
+    name: "title"
+  },
+  {
+    type: "input",
+    message: "Please write a short description for your project.",
+    name: "description"
+  },
+  {
+    type: "input",
+    message: "What is your preferred method of communication?",
+    name: "communication"
+  }
 
 ];
 
+//Initiation function to run code
+function init(){
+  
 inquirer
-  .prompt([
-    {
-      type: "input",
-      message: "What is your name?",
-      name: "name"
-    },
-    {
-      type: "input",
-      message: "What languages do you know?",
-      name: "language"
-    },
-    {
-      type: "input",
-      message: "What is your preferred method of communication?",
-      name: "communication"
-    }
-  ])
+  .prompt(questions)
   .then(function(response) {
       
     writeToFile(fileName,response);
 
   });
-
-// function to write README file
-function writeToFile(file, response) {
-
-
-    fs.writeFile(file,JSON.stringify(response,null, '\t'),function(err) {
-
-    });
 }
 
-// function to initialize program
-function init() {
+//Write the file
+function writeToFile(filename,response){
+
+  const markdown = generateMarkdown(response);
+  fs.writeFile(filename,JSON.stringify(markdown, null, '\t'),function(err) {
+  });
 
 }
 
+//Call initiation
+init();

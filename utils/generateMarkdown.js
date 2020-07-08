@@ -4,22 +4,43 @@ const generateMarkdown = response => {
 
 # ${response.title.toUpperCase()}
 
-# ${response.description}
+# Description
+${response.description}
 
 # Table of Contents
 
-[Contribution] (#contribution)
+[Title](#${response.title})
+
+[Description](#description)
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[License](#license)
+
+[Contribution](#contribution)
+
+[Tests](#tests)
+
+[Questions](#questions)
+
+# Installation
 
 ${response.installation}
 
+# Usage
+
 ${response.usage}
 
-# ${response.license}
+# License
+${response.license}
 
 # Contribution
 ${response.contribution}
 
-# ${response.tests}
+# Tests
+${response.tests}
 
 # Questions: Please Contact
 
@@ -27,7 +48,7 @@ GitHub Username: ${response.username}
 
 GitHub Link: https://wwww.github.com/${response.username}
 
-xEmail: ${response.email}
+Email: ${response.email}
 
 
 `

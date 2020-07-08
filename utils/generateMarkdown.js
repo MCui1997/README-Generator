@@ -9,10 +9,6 @@ ${response.description}
 
 # Table of Contents
 
-[Title](#${response.title})
-
-[Description](#description)
-
 [Installation](#installation)
 
 [Usage](#usage)

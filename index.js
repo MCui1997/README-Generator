@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 let badge = ""; 
-let fileName = "michael.md";
+let fileName = "";
 
 
 //Questions for user
@@ -87,7 +87,8 @@ inquirer
 
       }
 
-      
+    //get the FileName
+    fileName = response.title+".md";
     writeToFile(fileName,response,badge);
 
   });

@@ -4,18 +4,20 @@ const generateMarkdown = response => {
 
 # ${response.title.toUpperCase()}
 
-
 # ${response.description}
 
-# ${response.table}
+# Table of Contents
 
-# ${response.installation}
+[Contribution] (#contribution)
 
-# ${response.usage}
+${response.installation}
+
+${response.usage}
 
 # ${response.license}
 
-# ${response.contribution}
+# Contribution
+${response.contribution}
 
 # ${response.tests}
 
@@ -23,9 +25,9 @@ const generateMarkdown = response => {
 
 GitHub Username: ${response.username} 
 
-GitHub Link: github.com/${response.username}
+GitHub Link: https://wwww.github.com/${response.username}
 
-Please Email: ${response.email}
+xEmail: ${response.email}
 
 
 `

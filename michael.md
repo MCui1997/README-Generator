@@ -6,7 +6,7 @@
 
 # Table of Contents
 
-[Contribution] (#contribution)
+[Contribution](#contribution)
 
 adsfibasdfibadsf
 

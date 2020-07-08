@@ -2,6 +2,8 @@ const generateMarkdown = function(response,badge) {
 
   return `
 
+${badge}
+
 # ${response.title.toUpperCase()}
 
 # Description
@@ -30,9 +32,8 @@ ${response.installation}
 ${response.usage}
 
 # License
-${response.license} 
 
-${badge}
+This project is under the ${response.license} license. 
 
 # Contribution
 ${response.contribution}
@@ -44,7 +45,7 @@ ${response.tests}
 
 GitHub Username: ${response.username} 
 
-GitHub Link: https://wwww.github.com/${response.username}
+GitHub Link: www.github.com/${response.username}/
 
 Email: ${response.email}
 

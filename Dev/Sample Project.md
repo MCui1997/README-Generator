@@ -1,9 +1,11 @@
 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # SAMPLE PROJECT
 
 # Description
-This is a short description
+This is a cool project for testing
 
 # Table of Contents
 
@@ -21,28 +23,27 @@ This is a short description
 
 # Installation
 
-This is short installation
+Please install properly
 
 # Usage
 
-short usage
+Please figure it out
 
 # License
-GPLv3 
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+This project is under the MIT license. 
 
 # Contribution
-short contribution
+Everybody in the world
 
 # Tests
-short testing
+Test the stuff good
 
 # Contact with Questions
 
-GitHub Username: mcui1997 
+GitHub Username: MCui1997 
 
-GitHub Link: https://wwww.github.com/mcui1997
+GitHub Link: www.github.com/MCui1997/
 
 Email: cuimichael500@gmail.com
 

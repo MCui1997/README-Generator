@@ -1,4 +1,4 @@
-const generateMarkdown = response => {
+const generateMarkdown = function(response,badge) {
 
   return `
 
@@ -34,9 +34,9 @@ ${response.installation}
 ${response.usage}
 
 # License
-${response.license}
+${response.license} 
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+${badge}
 
 # Contribution
 ${response.contribution}

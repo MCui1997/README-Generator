@@ -5,7 +5,7 @@
 # SAMPLE PROJECT
 
 # Description
-This is a cool project for testing
+This is a short description for my sample project.
 
 # Table of Contents
 
@@ -23,21 +23,21 @@ This is a cool project for testing
 
 # Installation
 
-Please install properly
+Sample installation instructions, install packages.
 
 # Usage
 
-Please figure it out
+Usage instructions in the form of running thorugh VS Code.
 
 # License
 
 This project is under the MIT license. 
 
 # Contribution
-Everybody in the world
+3 Contributors plus myself
 
 # Tests
-Test the stuff good
+Please test carefully
 
 # Contact with Questions
 

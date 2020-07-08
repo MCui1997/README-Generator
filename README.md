@@ -51,3 +51,15 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Screenshots
+
+Step 1: After cloning, right click on Dev file and open in terminal.
+![Alt text](/screenshots/Terminial.png "Optional Title")
+
+Step 2: Answer the prompts
+![Alt text](/screenshots/Prompts.png "Optional Title")
+
+Step 3: Upon completion, a README file will be generated
+![Alt text](/screenshots/Completed.png "Optional Title")
+
+Step 4: Preview your README
+![Alt text](/screenshots/Final.png "Optional Title")

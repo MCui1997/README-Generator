@@ -1,11 +1,11 @@
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 # SAMPLE PROJECT
 
 # Description
-This is a short description for my sample project.
+This is a sample project for my readme generator.
 
 # Table of Contents
 
@@ -23,21 +23,21 @@ This is a short description for my sample project.
 
 # Installation
 
-Sample installation instructions, install packages.
+Install the main content and all appropriate files.
 
 # Usage
 
-Usage instructions in the form of running thorugh VS Code.
+Use the files properly.
 
 # License
 
-This project is under the MIT license. 
+This project is under the BSD3 license. 
 
 # Contribution
-3 Contributors plus myself
+Me and friends
 
 # Tests
-Please test carefully
+Test this multiple times with different sites.
 
 # Contact with Questions
 

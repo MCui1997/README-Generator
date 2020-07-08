@@ -50,7 +50,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Screenshots
+## Screenshots + Instructions
 
 Step 1: After cloning, right click on Dev file and open in terminal.
 ![Alt text](/screenshots/Terminal.png "Optional Title")
